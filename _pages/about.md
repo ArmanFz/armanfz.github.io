@@ -19,10 +19,11 @@ Hello! I am Arman Forouzesh, a recent Master's graduate in Electrical Engineerin
 
 ## Skills
 ### Programming Skills
-- MATLAB & Simulink: Proficient in professional programming
-- Python: Pytorch, TensorFlow, SKLearn
-- PLC Step 7 (Ladder logic) & WinCC flexible
+- Programming Languages: Python, MATLAB, C
+- Frameworks: TensorFlow, PyTorch, OpenCV, Keras, scikit-learn
+- Tools & Platforms: Git, LaTeX, Nvidia Jetson
 - Reference Management: Zotero, EndNote
+- PLC Step 7 (Ladder logic) & WinCC flexible
 
 ### Soft Skills
 - Teamwork and collaboration (working on multiple team projects)
@@ -33,7 +34,15 @@ Hello! I am Arman Forouzesh, a recent Master's graduate in Electrical Engineerin
 ### Languages
 - Persian: Native
 - English: TOEFL ibt, 101
-
+## Projects
+- **Self-supervised Monocular Depth Estimation** - Develop and implementation of a self-supervised CNN-Transformer network for monocular depth estimation in autonomous vehicles.
+- **Stereo Matching and Feature Matching** - Applied calibration techniques to minimize distortion and optimize camera parameters, implemented stereo matching algorithms using OpenCV (cv2) and deep learning models (ACVNet, PSMNet), and leveraged feature matching (SIFT, ORB) for seamless image stitching.
+- **Medical Image Segmentation** - Utilized various UNet models (such as Attention UNet and UNETR) with different backbones (e.g., ResNet, EfficientNet) and transfer learning techniques for medical image segmentation.
+- **Object Detection** - Applied YOLOv4, YOLOv8, and YOLOv9 models on multiple datasets for object detection tasks.
+- **Sentiment Analysis** - Conducted sentiment analysis using BERT (trained from scratch) and developed a hybrid CNN-LSTM model for fake news detection.
+- **Transfer Learning** - LeNet, Inceptionv3, VGG16, data augmentation impact.
+- **Control** - Designed and implemented game-theoretic models for traffic control and applied Teaching-LearningBased Optimization (TLBO) for system optimization.
+- **Robotic Control** - Implemented PID and Fuzzy Logic controllers for a 3R non-planar robotic system and conducted MIMO (Multi-Input Multi-Output) system analysis.
 ## Experience
 
 **Teaching Assistant - Machine Learning**  
