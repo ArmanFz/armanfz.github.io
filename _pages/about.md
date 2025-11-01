@@ -34,6 +34,7 @@ Hello! I am Arman Forouzesh, a recent Master's graduate in Electrical Engineerin
 ### Languages
 - Persian: Native
 - English: TOEFL ibt, 101
+
 ## Projects
 - **Self-supervised Monocular Depth Estimation** - Develop and implementation of a self-supervised CNN-Transformer network for monocular depth estimation in autonomous vehicles.
 - **Stereo Matching and Feature Matching** - Applied calibration techniques to minimize distortion and optimize camera parameters, implemented stereo matching algorithms using OpenCV (cv2) and deep learning models (ACVNet, PSMNet), and leveraged feature matching (SIFT, ORB) for seamless image stitching.
