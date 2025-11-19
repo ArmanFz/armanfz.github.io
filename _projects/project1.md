@@ -2,7 +2,7 @@
 title: "Seg"
 collection: talks
 type: "Talk"
-permalink: /talks/2012-03-01-talk-1
+permalink: /talks/ms-project
 venue: "seg"
 date: 2012-03-01
 location: "San Francisco, California"
