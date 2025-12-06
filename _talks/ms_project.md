@@ -9,20 +9,6 @@ date: 2025-03-01
 location: ""
 ---
 
-To add an image at the end of your Markdown document, you use the standard image syntax: ``.
-
-Here is the complete text with an image placeholder included at the bottom.
-
-***
-
-### Multiple Sclerosis and MRI Diagnosis
-
-To add an image located in the same Git repository to your `README.md`, you should use a **relative path**. This ensures the image displays correctly regardless of where the repository is cloned or viewed (like on GitHub or GitLab).
-
-Here is the updated Markdown content. I have added the image section at the bottom with two common examples: one if the image is in the root folder, and one if it is in a subfolder (like `assets` or `images`).
-
-***
-
 ### Multiple Sclerosis and MRI Diagnosis
 
 **Multiple sclerosis (MS)** is an autoimmune inflammatory disease of the central nervous system that disrupts communication within the brain and between the brain and the body. This disease is diagnosed by observing lesions in the brain and spinal cord Imaging. Magnetic resonance imaging (MRI) is one of the most important clinical tools for the diagnosis of MS, as MRI images show white matter (WM) lesions with high sensitivity. The development of MS lesions leads to a hydrophilic environment, which increases the signal on T2 and proton density-weighted MRI scans, while causing a decrease in signal on T1-weighted scans. Ovoid hyperintense regions on T2-weighted MRI are a radiological hallmark of MS. The visibility of these lesions can be impacted by the bright signal from cerebrospinal fluid (CSF), especially near the ventricles or cortical sulci.
