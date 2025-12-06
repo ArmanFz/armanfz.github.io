@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/ms_project
 venue: ""
-date: 2025-03-01
+date: 2025-01-01
 
 location: ""
 ---
