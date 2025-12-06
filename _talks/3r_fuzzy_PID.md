@@ -11,7 +11,7 @@ location: ""
 
 This project involves the design, evaluation, and comparison of two control strategies—**PID (Proportional-Integral-Derivative)** and **Fuzzy Logic Control (FLC)**—for a 3R non-planar robot. The primary goal was to calculate the required torques for the robot joints to accurately track a trajectory from an initial position to a desired target within 10 seconds.
 
-![3R Robot Scheme](path/to/figure1_robot_scheme.png)
+![3R Robot Scheme](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/3r_robot/3r%20robot.PNG)
 *Figure 1: Schematic of the 3R robot model.*
 
 ### 1. Robot Modeling
@@ -30,7 +30,7 @@ Two distinct controllers were designed to manage the torque for the robot's thre
     *   **Tuning:** Parameters set to $K_p = 50$, $K_i = 50$, $K_d = 5$.
     *   **Constraint:** Torque output limited to prevent saturation.
 
-![PID Controller Design](path/to/figure3_pid_design.png)
+![PID Controller Design](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/3r_robot/Tuning-a-PID-regulator.-Fig1.jpg)
 *Figure 3: PID Controller System Design.*
 
 *   **Fuzzy Logic Controller (FLC):**
@@ -38,7 +38,7 @@ Two distinct controllers were designed to manage the torque for the robot's thre
     *   **Structure:** 5 membership functions for inputs and 7 for the output, utilizing 25 distinct rules.
     *   **Complexity:** Required tuning of 42 parameters compared to only 3 for the PID.
 
-![Fuzzy Logic Controller Design](path/to/figure4_fuzzy_design.png)
+![Fuzzy Logic Controller Design](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/3r_robot/fuzzy%20design.PNG)
 *Figure 4: Fuzzy Logic Controller System Design in Simulink.*
 
 ### Results & Conclusion
@@ -54,5 +54,6 @@ Both controllers were simulated to track a movement from $(1.5, 0, 1.5)$ to $(0,
 | **Response Speed** | Slower | Faster |
 | **Tracking Error** | Higher | Lower |
 
-![Simulation Results](path/to/figure9_simulation_output.png)
+![Simulation Results1](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/3r_robot/PID.png)
+![Simulation Results2](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/3r_robot/fuzzy.png)
 *Figure 5: Simulation output comparing controller performance.*
