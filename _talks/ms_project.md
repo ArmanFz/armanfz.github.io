@@ -4,7 +4,8 @@ collection: talks
 type: "Talk"
 permalink: /talks/ms_projecct
 venue: ""
-date: 2025
+date: 2025-03-01
+
 location: ""
 ---
 
