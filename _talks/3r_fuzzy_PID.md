@@ -15,8 +15,8 @@ This project involves the design, evaluation, and comparison of two control stra
 *Figure 1: Schematic of the 3R robot model.*
 
 ### 1. Robot Modeling
-The robot is a 3-degree-of-freedom mechanical arm modeled using ordinary differential equations (ODEs). The system dynamics account for the mass and length of three links ($L_1, L_2, L_3$) and the payload mass ($M$).
-- **Trajectory Planner:** Designed in Simulink to convert desired Cartesian positions $(x_d, y_d, z_d)$ into joint angles over time.
+The robot is a 3-degree-of-freedom mechanical arm modeled using ordinary differential equations (ODEs). The system dynamics account for the mass and length of three links ($$L_1, L_2, L_3$$) and the payload mass ($$M$$).
+- **Trajectory Planner:** Designed in Simulink to convert desired Cartesian positions $$(x_d, y_d, z_d)$$ into joint angles over time.
 - **Dynamics:** The equations of motion were derived and implemented using Simulink integrator blocks to solve for joint accelerations.
 
 ![Trajectory Planner Block](path/to/figure2_trajectory_planner.png)
@@ -27,14 +27,14 @@ Two distinct controllers were designed to manage the torque for the robot's thre
 
 *   **PID Controller:**
     *   **Inputs:** Angular error.
-    *   **Tuning:** Parameters set to $K_p = 50$, $K_i = 50$, $K_d = 5$.
+    *   **Tuning:** Parameters set to $$K_p = 50$$, $$K_i = 50$$, $$K_d = 5$$.
     *   **Constraint:** Torque output limited to prevent saturation.
 
 ![PID Controller Design](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/3r_robot/Tuning-a-PID-regulator.-Fig1.jpg)
 *Figure 3: PID Controller System Design.*
 
 *   **Fuzzy Logic Controller (FLC):**
-    *   **Inputs:** Angular error ($e_\theta$) and angular speed error ($e_\omega$).
+    *   **Inputs:** Angular error ($$e_\theta$$) and angular speed error ($$e_\omega$$).
     *   **Structure:** 5 membership functions for inputs and 7 for the output, utilizing 25 distinct rules.
     *   **Complexity:** Required tuning of 42 parameters compared to only 3 for the PID.
 
@@ -43,10 +43,10 @@ Two distinct controllers were designed to manage the torque for the robot's thre
 
 ### Results & Conclusion
 
-Both controllers were simulated to track a movement from $(1.5, 0, 1.5)$ to $(0, 0, 3)$.
+Both controllers were simulated to track a movement from $$(1.5, 0, 1.5)$$ to $$(0, 0, 3)$$.
 
 *   **Performance:** The Fuzzy Logic Controller demonstrated superior performance, achieving the desired position faster and with significantly less error than the PID controller.
-*   **Trade-off:** While the FLC provided better accuracy (Final error $\approx 0.0223$), the PID controller was much simpler to implement and tune.
+*   **Trade-off:** While the FLC provided better accuracy (Final error $$\approx 0.0223$$), the PID controller was much simpler to implement and tune.
 
 | Metric | PID Controller | Fuzzy Logic Controller |
 | :--- | :--- | :--- |
