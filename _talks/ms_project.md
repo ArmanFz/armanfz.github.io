@@ -9,8 +9,6 @@ date: 2025-03-01
 location: ""
 ---
 
-### Multiple Sclerosis and MRI Diagnosis
-
 **Multiple sclerosis (MS)** is an autoimmune inflammatory disease of the central nervous system that disrupts communication within the brain and between the brain and the body. This disease is diagnosed by observing lesions in the brain and spinal cord Imaging. Magnetic resonance imaging (MRI) is one of the most important clinical tools for the diagnosis of MS, as MRI images show white matter (WM) lesions with high sensitivity. The development of MS lesions leads to a hydrophilic environment, which increases the signal on T2 and proton density-weighted MRI scans, while causing a decrease in signal on T1-weighted scans. Ovoid hyperintense regions on T2-weighted MRI are a radiological hallmark of MS. The visibility of these lesions can be impacted by the bright signal from cerebrospinal fluid (CSF), especially near the ventricles or cortical sulci.
 FLAIR imaging, a type of T2-weighted scan, uses an inversion pulse to selectively suppress the CSF signal. On an MRI of the brain, MS is characterized by white matter lesions (or plaques) seen on FLAIR images. These plaques vary in size, shape, or location and are classified into 4 categories based on McDonald’s criteria, mainly based on their location: 
 
