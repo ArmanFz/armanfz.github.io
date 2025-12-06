@@ -25,4 +25,4 @@ the underlying and hidden features of MRI data. A significant advantage of deep 
 
 ### Sample Imaging
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](assets/side_by_side_ms.gif)
