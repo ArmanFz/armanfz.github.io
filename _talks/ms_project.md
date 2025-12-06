@@ -1,5 +1,5 @@
 ---
-title: "MS Lesion Segmentation: AI-Powered Multi-Class Lesion Mapping in MRI"
+title: "Deep Learning based MS Lesion Segmentation in MRI images"
 collection: talks
 type: "Talk"
 permalink: /talks/ms_projecct
