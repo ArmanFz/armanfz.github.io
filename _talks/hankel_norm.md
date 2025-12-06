@@ -1,3 +1,14 @@
+---
+title: "Hankel-Norm Based Interaction Measure for Input-Output Pairing in MIMO Systems"
+collection: talks
+type: "Talk"
+permalink: /talks/3r_fuzzy_PID
+venue: ""
+date: 2023-10-01
+
+location: ""
+---
+
 This project explores a novel interaction index based on the **Hankel Norm** for selecting input-output pairings in Multi-Input Multi-Output (MIMO) systems. The study compares this new dynamic interaction measure against the traditional **Relative Gain Array (RGA)** method. The goal is to identify the most effective decentralized control structure by evaluating system controllability and observability through Gramians.
 
 ## ⚙️ Methodology
