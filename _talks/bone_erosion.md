@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning based CT Segmentation for Bone Erosion Detection in Sinusitis Patients"
 collection: talks
-type: "Talk"
+type: "Computer Vision"
 permalink: /talks/bone_erosion
 venue: ""
 date: 2025-03-01
