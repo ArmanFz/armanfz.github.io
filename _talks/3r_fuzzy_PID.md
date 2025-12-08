@@ -1,7 +1,7 @@
 ---
 title: "Design of PID and Fuzzy Logic Controller for a 3R Non-Planar Robot"
 collection: talks
-type: "Talk"
+type: "Control"
 permalink: /talks/3r_fuzzy_PID
 venue: ""
 date: 2022-05-01
