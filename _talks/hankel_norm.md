@@ -1,7 +1,7 @@
 ---
 title: "Hankel-Norm Based Interaction Measure for Input-Output Pairing in MIMO Systems"
 collection: talks
-type: "Talk"
+type: "Control"
 permalink: /talks/3r_fuzzy_PID
 venue: ""
 date: 2023-10-01
