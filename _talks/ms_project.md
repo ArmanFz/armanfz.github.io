@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning based MS Lesion Segmentation in MRI images"
 collection: talks
-type: "Talk"
+type: "Computer Vision"
 permalink: /talks/ms_project
 venue: ""
 date: 2025-01-01
