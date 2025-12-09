@@ -16,4 +16,4 @@ Computed Tomography (CT) is the preferred modality for diagnosing sinus diseases
 A key benefit of using advanced DL frameworks for segmentation is the ability to incorporate Explainable Artificial Intelligence (XAI) techniques, specifically Gradient-weighted Class Activation Mapping (Grad-CAM), which is vital for clinical adoption. XAI enhances model transparency and interpretability by providing visual explanations that highlight the specific areas in the image influencing the model's prediction. Grad-CAM visualizations confirm that the model’s attention is appropriately localized to anatomically meaningful regions, such as sinus walls and opacified cavities, validating the model’s reliability. This capability allows medical practitioners to assess the clinical relevance of the automated segmentation results, thereby fostering the trust required to integrate these powerful tools into routine medical practice for precise and timely diagnosis.
 
 
-![BE](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/side_by_side_be.gif)
+![BE](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/BoneErosion.gif)
