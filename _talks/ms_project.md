@@ -24,4 +24,4 @@ Identifying MS lesions on MRI scans is a challenging task, as these lesions can 
 the underlying and hidden features of MRI data. A significant advantage of deep learning-based methods is the automatic feature extraction that leads to effective and high-quality segmentation.
 
 
-![MS](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/side_by_side_ms.gif)
+![MS](https://github.com/ArmanFz/armanfz.github.io/blob/master/assets/MS.gif)
