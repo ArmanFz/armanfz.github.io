@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arman Forouzesh | Academic & Engineering Portfolio</title>
+  <meta name="description" content="Personal portfolio and research work of Arman Forouzesh, M.Sc. in Electrical Engineering specializing in Deep Learning, Computer Vision, and Autonomous Control Systems.">
+  <meta name="author" content="Arman Forouzesh">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Arman Forouzesh | Academic & Engineering Portfolio">
+  <meta property="og:description" content="Research in Deep Learning, Computer Vision, Monocular Depth Estimation, and Control Systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://armanfz.github.io">
+  <meta property="og:image" content="assets/MS.gif">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#about" class="nav-brand">
+        <span class="dot"></span>
+        Arman Forouzesh
+      </a>
+      
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">☰</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Research & Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#awards">Honors</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light mode">
+            <span id="theme-icon">☀️</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero / About Section -->
+  <header class="hero-section" id="about">
+    <div class="container hero-grid">
+      
+      <!-- Profile Card -->
+      <aside class="hero-profile-card">
+        <div class="profile-avatar-wrapper">
+          <img src="images/profile.JPG" onerror="this.onerror=null; this.src='images/profile.png';" alt="Arman Forouzesh">
+        </div>
+        <h1 class="profile-name">Arman Forouzesh</h1>
+        <div class="profile-title">M.Sc. Electrical Engineering</div>
+        <div class="profile-affil">
+          K. N. Toosi University of Technology<br>
+          <span style="color: var(--text-muted); font-size: 0.82rem;">Tehran, Iran</span>
+        </div>
+
+        <div class="profile-links">
+          <a href="https://scholar.google.com/citations?user=ECRCyW8AAAAJ&hl=en" target="_blank" rel="noopener" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+            Google Scholar
+          </a>
+          <a href="https://github.com/armanfz" target="_blank" rel="noopener" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/arman-forouzesh-40a68a205" target="_blank" rel="noopener" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:armanforouz0@gmail.com" class="social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 3.75v-9.544l4.623 5.794zm-4.373-6.929h19.5l-9.75 7.625-9.75-7.625zm7.393 8.351l2.357 1.849 2.357-1.849 5.37 6.649h-15.454l5.37-6.649zm7.734-.422l4.623-3.75v9.544l-4.623-5.794z"/></svg>
+            Email Me
+          </a>
+        </div>
+      </aside>
+
+      <!-- Bio & Interests -->
+      <main class="hero-bio">
+        <div class="hero-greeting">Welcome to my research website</div>
+        <h2 class="hero-heading">Deep Learning, Computer Vision & Intelligent Control Systems</h2>
+        
+        <p class="hero-desc">
+          Hello! I am <strong>Arman Forouzesh</strong>, a Master's graduate in Electrical Engineering from 
+          <a href="https://en.kntu.ac.ir/" target="_blank" rel="noopener">K. N. Toosi University of Technology</a>, 
+          where I specialized in the intersection of control systems and modern deep learning. My research is focused on developing robust, lightweight computer vision architectures—including self-supervised CNN-transformer networks for monocular depth estimation, explainable medical image segmentation (MS lesions, bone erosion), and multivariable robotic control.
+        </p>
+
+        <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: var(--text-primary);">
+          Core Research Interests
+        </h3>
+        <div class="interest-pills">
+          <span class="pill">🤖 AI & Machine Learning</span>
+          <span class="pill">👁️ Computer Vision & Autonomous Systems</span>
+          <span class="pill">🏥 Medical Image Processing & Segmentation</span>
+          <span class="pill">⚡ Transformer Networks & Depth Estimation</span>
+          <span class="pill">🎮 Game Theory & Optimization in Control</span>
+          <span class="pill">🦾 Robotic Control & System Identification</span>
+        </div>
+      </main>
+
+    </div>
+  </header>
+
+  <!-- Publications Section -->
+  <section id="publications">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Peer-Reviewed Research</div>
+        <h2 class="section-title">Publications</h2>
+      </div>
+
+      <!-- SimpDepth Paper -->
+      <article class="pub-card">
+        <div class="pub-meta">
+          <span class="pub-venue-badge">Journal Article</span>
+          <span>•</span>
+          <span>The Journal of Supercomputing (2025)</span>
+        </div>
+        <h3 class="pub-title">
+          SimpDepth: a simple CNN-transformer architecture for self-supervised monocular depth estimation in autonomous vehicles
+        </h3>
+        <div class="pub-authors">
+          <strong>Arman Forouzesh</strong>, Amin Nikoofard
+        </div>
+        <p class="pub-abstract">
+          Accurate depth perception is essential for the safe navigation of autonomous vehicles. While modern deep neural networks have demonstrated impressive depth estimation performance, real-world onboard deployment is often hindered by high computational overhead. In this work, we present <strong>SimpDepth</strong>, an efficient hybrid CNN-Transformer architecture designed for self-supervised monocular depth estimation. SimpDepth delivers strong feature extraction fidelity while remaining lightweight and viable for real-time edge execution in robotic and autonomous vehicular platforms.
+        </p>
+        <div class="pub-actions">
+          <a href="https://scholar.google.com/citations?user=ECRCyW8AAAAJ&hl=en" target="_blank" rel="noopener" class="btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+            View on Google Scholar
+          </a>
+          <button class="btn-sm" onclick="copyBibtex('bibtex-simpdepth')">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+            Copy BibTeX
+          </button>
+        </div>
+        <pre id="bibtex-simpdepth" style="display:none;">@article{forouzesh2025simpdepth,
+  title={SimpDepth: a simple CNN-transformer architecture for self-supervised monocular depth estimation in autonomous vehicles},
+  author={Forouzesh, Arman and Nikoofard, Amin},
+  journal={The Journal of Supercomputing},
+  year={2025},
+  publisher={Springer}
+}</pre>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- In-Depth Research & Projects Section -->
+  <section id="projects" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Deep Dives & Case Studies</div>
+        <h2 class="section-title">Featured Research & Technical Projects</h2>
+      </div>
+
+      <!-- Case Study 1: MS Lesion Segmentation -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <span class="project-category-badge">Computer Vision & Medical Imaging</span>
+          <h3 class="project-title">Deep Learning based MS Lesion Segmentation in Brain MRI</h3>
+        </div>
+        <div class="project-body">
+          <div class="project-text">
+            <p>
+              <strong>Multiple Sclerosis (MS)</strong> is an autoimmune inflammatory disorder of the central nervous system characterized by demyelinating white matter (WM) lesions in the brain and spinal cord. FLAIR (Fluid-Attenuated Inversion Recovery) MRI sequences selectively suppress the cerebrospinal fluid (CSF) hyperintensity, allowing high sensitivity observation of plaques.
+            </p>
+            <p>
+              Manual or semi-automated segmentation is clinically laborious, error-prone, and subject to considerable inter-observer variance. To address this, deep convolutional architectures were deployed to segment lesions across the four recognized <strong>McDonald Criteria</strong> anatomical distributions:
+            </p>
+            <ul style="margin-left: 20px; margin-bottom: 14px; font-size: 0.92rem; color: var(--text-secondary);">
+              <li><strong>Periventricular lesions:</strong> Abutting the lateral ventricles.</li>
+              <li><strong>Juxtacortical lesions:</strong> Interfacing the cerebral cortex surface.</li>
+              <li><strong>Infratentorial lesions:</strong> In the brainstem and cerebellum, influencing balance and motor control.</li>
+              <li><strong>Deep white matter lesions:</strong> Subcortical regions associated with cognitive impairment.</li>
+            </ul>
+          </div>
+
+          <!-- Working GIF Asset -->
+          <div class="project-media-container">
+            <img src="assets/MS.gif" alt="Dynamic Deep Learning MS Lesion Segmentation in MRI" class="zoomable-img">
+            <div class="project-media-caption">Figure 1: Automated deep learning segmentation of multiple sclerosis lesions across sequential MRI axial slices (Click image to zoom).</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Case Study 2: Bone Erosion in Sinusitis -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <span class="project-category-badge">Explainable AI (XAI) & Medical CT</span>
+          <h3 class="project-title">Deep Learning based CT Segmentation for Bone Erosion Detection in Sinusitis</h3>
+        </div>
+        <div class="project-body">
+          <div class="project-text">
+            <p>
+              <strong>Bone erosion</strong> in sinusitis patients indicates aggressive pathologies such as invasive fungal infections. Detecting erosion early is vital for preoperative planning to prevent catastrophic complications, including intra-orbital penetration and injury to the internal carotid artery or optic nerve.
+            </p>
+            <p>
+              By combining high-resolution Computed Tomography (CT) segmentation backbones with <strong>Explainable Artificial Intelligence (XAI)</strong> via <em>Gradient-weighted Class Activation Mapping (Grad-CAM)</em>, the network produces visual heatmaps verifying that its predictive attention localizes strictly to anatomically critical sinus walls and opacified cavities rather than spurious artifacts, securing clinical interpretability and trust.
+            </p>
+          </div>
+
+          <!-- Working GIF Asset -->
+          <div class="project-media-container">
+            <img src="assets/BoneErosion.gif" alt="Deep Learning Bone Erosion Detection in CT Scans" class="zoomable-img">
+            <div class="project-media-caption">Figure 2: Animated CT volume segmentation identifying localized bone erosion regions in sinusitis patients (Click to zoom).</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Case Study 3: 3R Robot Controller Design -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <span class="project-category-badge">Robotics & Non-Linear Control</span>
+          <h3 class="project-title">Design & Evaluation of PID and Fuzzy Logic Controllers for a 3R Non-Planar Robot</h3>
+        </div>
+        <div class="project-body">
+          <div class="project-text">
+            <p>
+              This investigation models and controls a 3-degree-of-freedom (3-DOF) non-planar robotic manipulator governed by non-linear ordinary differential equations (ODEs), accounting for link masses, lengths, and variable payload forces. The mission objective was to synthesize joint control torques to execute accurate Cartesian trajectory tracking from initial coordinates <code>(1.5, 0, 1.5)</code> to target <code>(0, 0, 3)</code> within 10 seconds.
+            </p>
+          </div>
+
+          <!-- Robot Scheme Diagram -->
+          <div class="project-media-container">
+            <img src="assets/3r_robot/3r%20robot.PNG" alt="3R Non-Planar Robot Model Kinematics" class="zoomable-img">
+            <div class="project-media-caption">Figure 3: Kinematic and dynamic schematic model of the 3R non-planar robot.</div>
+          </div>
+
+          <div class="project-text" style="margin-top: 18px;">
+            <p><strong>Control Methodologies:</strong></p>
+            <ul style="margin-left: 20px; font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 12px;">
+              <li><strong>PID Controller:</strong> Tuned with parameters \(K_p = 50\), \(K_i = 50\), and \(K_d = 5\) with torque saturation limiters.</li>
+              <li><strong>Fuzzy Logic Controller (FLC):</strong> Designed with dual inputs (angular error \(e_\theta\) and angular speed error \(e_\omega\)), 5 input membership functions, 7 output membership functions, and 25 rule bases requiring optimization of 42 parameters.</li>
+            </ul>
+          </div>
+
+          <!-- Dual Controller Block Diagrams -->
+          <div class="media-grid-2">
+            <div class="project-media-container">
+              <img src="assets/3r_robot/Tuning-a-PID-regulator.-Fig1.jpg" alt="PID Controller System Block Architecture" class="zoomable-img">
+              <div class="project-media-caption">Figure 4a: PID controller architecture.</div>
+            </div>
+            <div class="project-media-container">
+              <img src="assets/3r_robot/fuzzy%20design.PNG" alt="Fuzzy Logic Controller Simulink Architecture" class="zoomable-img">
+              <div class="project-media-caption">Figure 4b: Simulink FLC design.</div>
+            </div>
+          </div>
+
+          <!-- Simulation Response Output Comparison -->
+          <div class="media-grid-2">
+            <div class="project-media-container">
+              <img src="assets/3r_robot/PID.png" alt="PID Controller Trajectory Tracking Response" class="zoomable-img">
+              <div class="project-media-caption">Figure 5a: PID trajectory response.</div>
+            </div>
+            <div class="project-media-container">
+              <img src="assets/3r_robot/fuzzy.png" alt="Fuzzy Logic Trajectory Tracking Response" class="zoomable-img">
+              <div class="project-media-caption">Figure 5b: Fuzzy Logic trajectory response.</div>
+            </div>
+          </div>
+
+          <!-- Quantitative Performance Table -->
+          <div class="data-table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Performance Metric</th>
+                  <th>PID Controller</th>
+                  <th>Fuzzy Logic Controller (FLC)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Design & Tuning Complexity</strong></td>
+                  <td>Low (3 parameters)</td>
+                  <td>High (42 parameters &amp; 25 rule bases)</td>
+                </tr>
+                <tr>
+                  <td><strong>Rise Time &amp; Transient Speed</strong></td>
+                  <td>Slower settling</td>
+                  <td class="highlight-val">Faster convergence</td>
+                </tr>
+                <tr>
+                  <td><strong>Tracking Accuracy / Final Error</strong></td>
+                  <td>Higher residual error</td>
+                  <td class="highlight-val">Superior accuracy (Final error &approx; 0.0223)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <!-- Case Study 4: Hankel Norm -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <span class="project-category-badge">Multivariable Control Systems</span>
+          <h3 class="project-title">Hankel-Norm Interaction Index for Multivariable Control Configuration</h3>
+        </div>
+        <div class="project-body">
+          <div class="project-text">
+            <p>
+              In multivariable decentralized control, the classical Relative Gain Array (RGA) relies solely on steady-state gain matrices, often recommending input-output pairings that destabilize the closed-loop system under dynamic conditions. The <strong>Hankel-norm interaction index</strong> incorporates controllability and observability Gramians (\(\Gamma_c, \Gamma_o\)) to provide a dynamic measure of subsystem interactions.
+            </p>
+          </div>
+
+          <div class="project-media-container">
+            <img src="assets/hankel.png" alt="Hankel-Norm vs RGA Step Response Comparison" class="zoomable-img">
+            <div class="project-media-caption">Figure 6: Step response comparison showing Hankel-norm pairing (Blue/Solid) delivering superior settling time and stability over classical static RGA (Red/Dashed).</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Additional Engineering Highlights Grid -->
+      <div style="margin-top: 40px;">
+        <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 20px; color: var(--text-primary);">
+          More Engineering Projects & Implementations
+        </h3>
+        
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-title">🎯 Stereo & Feature Matching</div>
+            <div class="highlight-desc">Implemented camera calibration and stereo matching pipelines using OpenCV, SIFT, and ORB feature descriptors alongside deep architectures (ACVNet, PSMNet) for disparity estimation and seamless image stitching.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-title">🔍 Medical Image Segmentation</div>
+            <div class="highlight-desc">Engineered Attention UNet and UNETR transformer models with ResNet and EfficientNet backbones for high-precision anatomical structure delineation.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-title">📦 Real-Time Object Detection</div>
+            <div class="highlight-desc">Trained and benchmarked YOLOv4, YOLOv8, and YOLOv9 models across customized edge datasets for autonomous vehicle obstacle recognition.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-title">💬 NLP & Fake News Detection</div>
+            <div class="highlight-desc">Pre-trained BERT from scratch for domain-specific sentiment classification and implemented hybrid CNN-LSTM networks for automated misinformation identification.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-title">🚦 Game-Theoretic Traffic Control</div>
+            <div class="highlight-desc">Formulated non-cooperative game models for urban signalized intersection control and deployed Teaching-Learning-Based Optimization (TLBO) algorithms.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-title">🧠 Transfer Learning Benchmarks</div>
+            <div class="highlight-desc">Evaluated inductive transfer dynamics, domain adaptation, and data augmentation scaling across LeNet, VGG16, and InceptionV3 backbones.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience & Teaching -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Academic & Industry Roles</div>
+        <h2 class="section-title">Experience & Teaching</h2>
+      </div>
+
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Teaching Assistant — Machine Learning</h3>
+          <div class="timeline-meta">Sept 2023 – Jan 2025 • K. N. Toosi University of Technology (Prof. Aliyari)</div>
+          <p class="timeline-desc">
+            Designed hands-on laboratory assignments, mentored graduate and undergraduate students in supervised/unsupervised learning pipelines, model regularization, and PyTorch implementations.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Research & Development Engineer — Smartory Lab</h3>
+          <div class="timeline-meta">Oct 2023 – Jun 2024 • Tehran, Iran</div>
+          <p class="timeline-desc">
+            Spearheaded deep learning R&amp;D for dental pathology segmentation and automated diagnostic feature extraction on dental radiograph datasets.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">Teaching Assistant — Fundamentals of Intelligent Systems</h3>
+          <div class="timeline-meta">Jan 2023 – Jun 2023 • K. N. Toosi University of Technology (Prof. Aliyari)</div>
+          <p class="timeline-desc">
+            Formulated project benchmarks in fuzzy inference systems, evolutionary optimization (GA, PSO), and neural network modeling.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Competencies</div>
+        <h2 class="section-title">Technical Skills & Tools</h2>
+      </div>
+
+      <div class="skills-grid">
+        
+        <div class="skill-category-card">
+          <div class="skill-category-title">💻 Programming Languages</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">MATLAB / Simulink</span>
+            <span class="skill-tag">C / C++</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-category-title">🧠 Frameworks & ML</div>
+          <div class="skill-tags">
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow / Keras</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">scikit-learn</span>
+            <span class="skill-tag">HuggingFace</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-category-title">🛠️ Tools & Hardware</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">LaTeX</span>
+            <span class="skill-tag">Nvidia Jetson</span>
+            <span class="skill-tag">PLC Step 7 (Ladder)</span>
+            <span class="skill-tag">WinCC flexible</span>
+            <span class="skill-tag">Zotero &amp; EndNote</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-category-title">🌐 Languages</div>
+          <div class="skill-tags">
+            <span class="skill-tag">English (TOEFL iBT: 101)</span>
+            <span class="skill-tag">Persian (Native)</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Honors & Awards -->
+  <section id="awards">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Recognitions</div>
+        <h2 class="section-title">Honors & Awards</h2>
+      </div>
+
+      <ul class="awards-list">
+        <li class="award-item">
+          <div class="award-icon">🏆</div>
+          <div class="award-content">
+            <h4>Awarded "Excellent" for M.Sc. Thesis</h4>
+            <p>K. N. Toosi University of Technology (2024)</p>
+          </div>
+        </li>
+        <li class="award-item">
+          <div class="award-icon">🌟</div>
+          <div class="award-content">
+            <h4>Outstanding Researcher Award</h4>
+            <p>Faculty of Electrical Engineering, K. N. Toosi University of Technology (2022)</p>
+          </div>
+        </li>
+        <li class="award-item">
+          <div class="award-icon">🎯</div>
+          <div class="award-content">
+            <h4>Ranked Among Top 1% Nationwide</h4>
+            <p>National University Entrance Examination for M.Sc. Degrees in Electrical Engineering (2021)</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Selected Coursework -->
+      <div style="margin-top: 40px;">
+        <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 14px; color: var(--text-primary);">
+          Selected Advanced Coursework
+        </h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Deep Learning</span>
+          <span class="skill-tag">Game Theory &amp; Optimization</span>
+          <span class="skill-tag">Soft Computing &amp; Fuzzy Systems</span>
+          <span class="skill-tag">Mechatronics &amp; Robotics</span>
+          <span class="skill-tag">Micro-Controllers</span>
+          <span class="skill-tag">Deep Learning Specialization (Coursera)</span>
+          <span class="skill-tag">PyTorch Deep Neural Networks (Coursera)</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle);">
+    <div class="container" style="text-align: center; max-width: 700px;">
+      <div class="section-header">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title" style="justify-content: center;">Contact & Collaboration</h2>
+      </div>
+      
+      <p style="color: var(--text-secondary); margin-bottom: 28px; font-size: 1.05rem;">
+        I am always eager to collaborate on computer vision, deep learning, and autonomous robotics research. Feel free to reach out via email or connect on LinkedIn and GitHub.
+      </p>
+
+      <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+        <a href="mailto:armanforouz0@gmail.com" class="social-btn" style="background: var(--accent); color: #0f172a; font-weight: 700; border-color: var(--accent);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 3.75v-9.544l4.623 5.794zm-4.373-6.929h19.5l-9.75 7.625-9.75-7.625zm7.393 8.351l2.357 1.849 2.357-1.849 5.37 6.649h-15.454l5.37-6.649zm7.734-.422l4.623-3.75v9.544l-4.623-5.794z"/></svg>
+          armanforouz0@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/arman-forouzesh-40a68a205" target="_blank" rel="noopener" class="social-btn">
+          LinkedIn Profile
+        </a>
+        <a href="https://github.com/armanfz" target="_blank" rel="noopener" class="social-btn">
+          GitHub Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>&copy; 2026 Arman Forouzesh. Built for high performance, accessibility, and zero-build GitHub Pages deployment.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Figures & GIFs -->
+  <div class="modal" id="image-modal">
+    <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+    <img src="" alt="Enlarged figure view" class="modal-content" id="modal-image">
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/portfolio.js"></script>
+</body>
+</html>
